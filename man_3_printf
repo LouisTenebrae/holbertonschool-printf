@@ -1,0 +1,40 @@
+.TH _PRINTF 1 _printf\-0.1
+.SH NAME
+_printf \- Personalized version of the printf program
+.SH SYNOPSIS
+.B _printf
+.RB [ \-c
+.IR character ]
+.RB [ \-s
+.IR string ]
+.RB [ \-%
+.IR percent ]
+.RB [ \-d
+.IR decimal ]
+.RB [ \-i
+.IR integer ]
+.P
+.BR _printf("...")
+.SH DESCRIPTION
+.B _printf
+is a personalized version of the printf program included in the standard library, made for a group project to prove that we can create and developed a part of the printf function on or own.
+.SH OPTIONS
+.TP
+.B \-c
+prints a character
+.TP
+.B \-s
+prints a string
+.TP
+.B \-%
+prints a percent sign
+.TP
+.B \-d
+prints a decimal
+.TP
+.B \-i
+prints an integer
+.SH AUTHOR
+.B JAOV & LME
+.SH COPYRIGHT
+.B GNU not aplicable copyright, not for public use.
