@@ -17,7 +17,7 @@ _printf \- Personalized version of the printf program
 .BR _printf("...")
 .SH DESCRIPTION
 .B _printf
-is a personalized version of the printf program included in the standard library, made for a group project to prove that we can create and developed a part of the printf function on or own.
+is a personalized version of the printf program included in the standard library, made for a group project to prove that we can create and developed a part of the printf function on our own.
 .SH OPTIONS
 .TP
 .B \-c
