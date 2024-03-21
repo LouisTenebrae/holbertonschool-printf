@@ -51,12 +51,6 @@ int _printf(const char *format, ...)
 			write(1, format, 1);
 			chara_print++;
 			}
-			else if(*format == 'd')
-			{
-				int num = va_arg(list_of_args, int);
-				print_int(num);
-				chara_print++;
-			}
 		}
 		format++;
 	}
